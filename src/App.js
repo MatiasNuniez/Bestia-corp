@@ -5,6 +5,7 @@ import { Carousel } from './components/Carousel';
 import { Sliderinfinite } from './components/Sliderinfinite';
 import { Inicio2 } from './components/Inicio2';
 import { Footer } from './components/Footer';
+import {PlayerCsgo} from './components/PlayerCsgo'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
       <Sliderinfinite />
 
       <Inicio2 />
+
+      <PlayerCsgo />
 
       <Footer />
 
