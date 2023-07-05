@@ -1,5 +1,5 @@
 import React from 'react'
-import noti1 from '../assets/BookBestia/BootcampBarcelona/02NoktseBootcamp.jpg'
+import noti1 from '../../assets/BookBestia/BootcampBarcelona/02NoktseBootcamp.jpg'
 
 export const Inicio1 = () => {
 

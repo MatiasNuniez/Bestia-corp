@@ -1,5 +1,5 @@
 import React from 'react'
-import imgLogoBlack from '../assets/Presskit/Bestia-Logo/Bestia.png'
+import imgLogoBlack from '../../assets/Presskit/Bestia-Logo/Bestia.png'
 
 export const Sliderinfinite = () => {
   return (

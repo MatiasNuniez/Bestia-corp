@@ -2,6 +2,8 @@ body{
   margin: 0px;
   padding: 0px;
   min-height: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 
@@ -196,15 +198,25 @@ body{
 }
 
 .footer{
-  margin-top: 100px;
+  margin-top: auto;
   width: 100%;
   height: 400px;
-  background-color: #414141;
+  background-color: #2C2C2C;
+  background-image: url('./assets/Presskit/Mascot/Mascot.png');
+  background-repeat: repeat;
+  background-size: 130px;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .footer h1{
   text-align: center;
   color: whitesmoke;
+}
+
+.lista-footer{
+  width: 70%;
+  float: left;
 }
 
 .container-icons{
@@ -219,14 +231,14 @@ body{
 }
 
 .footer-mn{
+  width: 100%;
   display: flex;
   justify-content: center;
+  margin-top: auto;
 }
 
 .footer-mn p{
-  margin-top: 15vh;
   color: white;
-  font-weight: bold;
 }
 
 .footer-mn a{
@@ -235,18 +247,72 @@ body{
     font-weight: bold;
 }
 
+.footer .results{
+  width: 30%;
+  float: right;
+}
+
+.footer .results h2{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.result-match{
+  margin: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer .content {
+  height: 350px;
+}
+
+@media (max-width: 1040px){
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .container-icons{
+    margin-top: 50px;
+  }
+
+  .footer .lista-footer{
+    width: 100%;
+  }
+
+  .footer .results{
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .footer .footer-mn{
+    width: 100%;
+  }
+}
 
 /* --------------------------------------------------------------------------------------------------------------CSGO PLAYERS--------------------------------- */
 
-.csgoplayers{
+
+.csgoplayers {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .csgoplayers .card{
-  margin: auto;
   margin-top: 10px;
-  overflow: hidden;
+}
+
+@media(max-width: 767px){
+
+  .csgoplayers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .hovver{
@@ -277,4 +343,26 @@ body{
 .csgoplayers .card-text{
   font-weight: bold;
 }
+
+
+.Staff {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Staff .card{
+  margin-top: 10px;
+}
+
+@media(max-width: 767px){
+  .csgoplayers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 

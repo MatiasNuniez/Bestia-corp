@@ -1,9 +1,9 @@
 import React from 'react'
-import imgIndex1 from '../assets/WallpaperBestia/WP03_Desktop.png'
-import imgIndex2 from '../assets/WallpaperBestia/WP04_Desktop.png'
-import imgIndex3 from '../assets/WallpaperBestia/WP06_Desktop.png'
-import imgIndex4 from '../assets/WallpaperBestia/WP07_Desktop.png'
-import imgIndex5 from '../assets/WallpaperBestia/WP08_Desktop.png'
+import imgIndex1 from '../../assets/WallpaperBestia/WP03_Desktop.png'
+import imgIndex2 from '../../assets/WallpaperBestia/WP04_Desktop.png'
+import imgIndex3 from '../../assets/WallpaperBestia/WP06_Desktop.png'
+import imgIndex4 from '../../assets/WallpaperBestia/WP07_Desktop.png'
+import imgIndex5 from '../../assets/WallpaperBestia/WP08_Desktop.png'
 
 export const Carousel = () => {
 

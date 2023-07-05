@@ -1,31 +1,49 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import { Header } from './components/Header';
-import { Inicio1 } from './components/Inicio1';
-import { Carousel } from './components/Carousel';
-import { Sliderinfinite } from './components/Sliderinfinite';
-import { Inicio2 } from './components/Inicio2';
 import { Footer } from './components/Footer';
-import {PlayerCsgo} from './components/PlayerCsgo'
+import { PlayerCsgo } from './components/Csgo/PlayerCsgo'
+import { Index } from './components/Inicio/Index';
+import { Staff } from './components/Staff/Staff';
 
 function App() {
   return (
     <div className="App">
-      
+
       <Header />
-      
-      <Carousel />
 
-      <Inicio1 />
+      <Router>
 
-      <Sliderinfinite />
+        <Routes>
+          <Route path='/' Component={Index} />
+        </Routes>
 
-      <Inicio2 />
+        <Routes>
+          <Route path='/Csgoteam' Component={PlayerCsgo} />
+        </Routes>
 
-      <PlayerCsgo />
+        <Routes>
+          <Route path='/Staff' Component={Staff} />
+        </Routes>
+{/* 
+        <Routes>
+          <Route path='/Matches' Component={Matches} />
+        </Routes>
+
+        <Routes>
+          <Route path='/Store' Component={Store} />
+        </Routes>
+
+        <Routes>
+          <Route path='/AboutUs' Component={AboutUs} />
+        </Routes> */}
+
+      </Router>
 
       <Footer />
 
     </div>
+
   );
 }
 

@@ -1,16 +1,16 @@
 import React from 'react'
-import luchov from '../assets/BookBestia/JugadoresRemeras/Luchov.jpg'
-import noktse from '../assets/BookBestia/JugadoresRemeras/Noktse.jpg'
-import meyern from '../assets/BookBestia/JugadoresRemeras/Meyern.jpg'
-import deco from '../assets/BookBestia/JugadoresRemeras/Deco.jpg'
+import luchov from '../../assets/BookBestia/JugadoresRemeras/Luchov.jpg'
+import noktse from '../../assets/BookBestia/JugadoresRemeras/Noktse.jpg'
+import meyern from '../../assets/BookBestia/JugadoresRemeras/Meyern.jpg'
+import deco from '../../assets/BookBestia/JugadoresRemeras/Deco.jpg'
 
 
 
-export const PlayerCsgo = () => {
+export const Staff = () => {
 
     return (
 
-        <div className='container csgoplayers'>
+        <div className='container Staff'>
 
             <div className="card" style={{width: '18rem'}}>
                 <img src={noktse} className="card-img-top" alt="..."/>

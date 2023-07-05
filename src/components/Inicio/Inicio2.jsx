@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/Presskit/Bestia-Logo/Bestia.png'
+import img from '../../assets/Presskit/Bestia-Logo/Bestia.png'
 
 export const Inicio2 = () => {
 
