@@ -21,9 +21,6 @@ export const Header = () => {
               <a class="nav-link" href="/Csgoteam">CSGO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/Staff">Staff</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/Matches">Matches</a>
             </li>
             <li class="nav-item">

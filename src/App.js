@@ -4,7 +4,13 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { PlayerCsgo } from './components/Csgo/PlayerCsgo'
 import { Index } from './components/Inicio/Index';
-import { Staff } from './components/Staff/Staff';
+import { News } from './components/News/News';
+import { Matches } from './components/Matches/Matches';
+import { Store } from './components/Store/Store';
+import { Jerseys } from './components/Store/Jerseys';
+import { Jersey } from './components/Store/Jersey';
+import { AboutUs } from './components/AboutUs/AboutUs';
+
 
 function App() {
   return (
@@ -23,20 +29,23 @@ function App() {
         </Routes>
 
         <Routes>
-          <Route path='/Staff' Component={Staff} />
+          <Route path='/News' Component={News} />
         </Routes>
-{/* 
+
         <Routes>
           <Route path='/Matches' Component={Matches} />
         </Routes>
 
         <Routes>
           <Route path='/Store' Component={Store} />
+          <Route path='/Store/Jerseys' Component={Jerseys}/>
+          <Route path='/Store/Jerseys/jersey' Component={Jersey} />
         </Routes>
 
+      
         <Routes>
           <Route path='/AboutUs' Component={AboutUs} />
-        </Routes> */}
+        </Routes> 
 
       </Router>
 
